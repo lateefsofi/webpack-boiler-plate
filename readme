@@ -1,0 +1,12 @@
+CSS
+.Creating a single bundle for all the css files referenced in the application.
+.Excludes unused css in the main bundle.
+.Minifies CSS bundle
+.Primarily supports sacss but can be consigured to support other css modules.
+.Supports auto prefixing, i.e. automatically enables css for different browsers
+
+Assets
+Load Imgaes as blob or url to the file using url-loader and file-loader
+
+JS
+

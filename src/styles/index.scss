@@ -1,0 +1,24 @@
+body {
+  border: 5px solid green;
+}
+body {
+  background: red;
+  -webkit-border-radius: 1em;
+  border-radius: 1em;
+
+  background: cornsilk;
+
+  background-image: url("../images/logo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.first{
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.second{
+  border-radius: 20px;
+}
