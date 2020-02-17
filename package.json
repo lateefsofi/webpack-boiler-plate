@@ -7,7 +7,7 @@
     "start": "export PORT=3000 && nodemon --watch webpack.config.js --exec \"webpack-dev-server --env development\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "prod": "node_modules/.bin/webpack --env production",
+    "prod": "rm -rf ./build && node_modules/.bin/webpack --env production",
     "build": "webpack"
   },
   "keywords": [],
